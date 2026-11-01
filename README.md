@@ -1,4 +1,4 @@
-#Chinook Media Store Data Analysis Using SQL
+# Chinook Media Store Data Analysis Using SQL
  
 ## Project Overview
 
@@ -72,7 +72,7 @@ The project uses the Chinook Media Store sample database, which represents a dig
 - **Microsoft SQL Server (SSMS):** Used to create, manage, query, and analyse the Chinook Media Store database.
 - **SQL (T-SQL):** Used to retrieve, clean, transform, standardise, and combine data.
 
-##SQL Analysis and Queries 
+## SQL Analysis and Queries 
 
 **Q1: Customer Full Name Standardization**
 
