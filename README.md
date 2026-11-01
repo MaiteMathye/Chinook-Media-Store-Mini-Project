@@ -34,38 +34,39 @@ The project uses the Chinook Media Store sample database, which represents a dig
 
 ## Data Dictionary
 
+## Data Dictionary
+
 ### 1. Customer Table
 
-| Column Name | Description                          | Data Type    |
-| CustomerId  | Unique identifier for each customer. | INT          |
-| FirstName   | Customer's first name.               | NVARCHAR(40) |
-| LastName    | Customer's last name.                | NVARCHAR(20) |
-| Company     | Customer's company name.             | NVARCHAR(80) |
-| City        | Customer's city of residence.        | NVARCHAR(40) |
-| Email       | Customer's email address.            | NVARCHAR(60) |
+| Column Name | Description | Data Type |
+|---|---|---|
+| CustomerId | Unique identifier for each customer. | INT |
+| FirstName | Customer's first name. | NVARCHAR(40) |
+| LastName | Customer's last name. | NVARCHAR(20) |
+| Company | Customer's company name. | NVARCHAR(80) |
+| City | Customer's city of residence. | NVARCHAR(40) |
+| Email | Customer's email address. | NVARCHAR(60) |
 
 ### 2. Employee Table
 
-| Column Name | Description                          | Data Type    |
-.....................................................................
-| EmployeeId  | Unique identifier for each employee. | INT          |
-| FirstName   | Employee's first name.               | NVARCHAR(20) |
-| LastName    | Employee's last name.                | NVARCHAR(20) |
-| Title       | Employee's job title.                | NVARCHAR(30) |
-| City        | Employee's city.                     | NVARCHAR(30) |
-| Phone       | Employee's contact number.           | NVARCHAR(24) |
-| Email       | Employee's email address.            | NVARCHAR(60) |
+| Column Name | Description | Data Type |
+|---|---|---|
+| EmployeeId | Unique identifier for each employee. | INT |
+| FirstName | Employee's first name. | NVARCHAR(20) |
+| LastName | Employee's last name. | NVARCHAR(20) |
+| Title | Employee's job title. | NVARCHAR(30) |
+| City | Employee's city. | NVARCHAR(30) |
+| Phone | Employee's contact number. | NVARCHAR(24) |
+| Email | Employee's email address. | NVARCHAR(60) |
 
 ### 3. Invoice Table
 
-| Column Name | Description                                          | Data Type     |
-......................................................................................
-| InvoiceId   | Unique identifier for each invoice.                  | INT           |
-| CustomerId  | Identifies the customer associated with the invoice. | INT           |
-| InvoiceDate | Date the invoice was generated.                      | DATETIME      |
-| Total | Total amount charged on the invoice.                       | NUMERIC(10,2) |
-
-
+| Column Name | Description | Data Type |
+|---|---|---|
+| InvoiceId | Unique identifier for each invoice. | INT |
+| CustomerId | Identifies the customer associated with the invoice. | INT |
+| InvoiceDate | Date the invoice was generated. | DATETIME |
+| Total | Total amount charged on the invoice. | NUMERIC(10,2) |
 ## Tools Used
 
 - **Microsoft SQL Server (SSMS):** Used to create, manage, query, and analyse the Chinook Media Store database.
